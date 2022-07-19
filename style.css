@@ -16,7 +16,8 @@
     border-radius: 30px;
 }
 
-.description {
+.description,
+.side-bar {
     margin-top: 100px;
     margin-left: 100px;
 }
@@ -43,4 +44,32 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.side-bar {
+    margin-top: 2%;
+    border: 5px solid;
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+
+}
+
+.box {
+    border: 2px solid;
+    width: 252px;
+    height: 53.08px;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-left: 5%;
+    background-color: white;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#color {
+    background-color: red;
 }
