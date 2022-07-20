@@ -88,27 +88,22 @@
 }
 
 
-#link a {
-    list-style: none;
-    text-decoration: none;
-    color: #161616;
 
 
-
+h3 {
+    margin-left: 10px;
 }
 
-.blog-button {
-    width: 100px;
-    height: 32px;
-    background-color: white;
-    border-radius: 10px;
+h5 {
+    margin-top: 2px;
+    margin-left: 20px;
+    color: gray;
 }
 
-.icon {
+.blogs {
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
 }
-
 
 .side-bar {
     margin-top: 5%;
