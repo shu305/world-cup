@@ -79,6 +79,7 @@
     width: 312px;
     height: 362px;
     border-radius: 10px;
+
 }
 
 .blog-button {
@@ -95,8 +96,7 @@
 
 
 .side-bar {
-    display: grid;
-    grid-template-rows: max-content;
+    margin-top: 5%;
 }
 
 .blog-section {
@@ -108,6 +108,10 @@
     grid-gap: 10px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
 
 
 
