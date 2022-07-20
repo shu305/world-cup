@@ -75,6 +75,11 @@
     background-color: red;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 .blogs {
     width: 312px;
     height: 362px;
@@ -108,24 +113,32 @@
     grid-gap: 10px;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-}
-
-.footer {
-    height: 444px;
+.footer-container {
     width: 1500px;
+    height: 300px;
     background-color: #161616;
-
 
 }
 
 .footer-tittle {
-
-    color: white;
+    position: absolute;
+    width: 95px;
+    height: 60px;
+    left: 700px;
+    margin-top: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 600;
     font-size: 40px;
+    line-height: 60px;
     text-align: center;
+    color: #FFFFFF;
+}
 
+.line {
+    position: absolute;
+    width: 1320px;
+    height: 0px;
+    left: 140px;
+    top: 2000px;
 }
