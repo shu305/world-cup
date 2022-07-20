@@ -16,8 +16,7 @@
     border-radius: 30px;
 }
 
-.description,
-.side-bar {
+.description {
     margin-top: 100px;
     margin-left: 100px;
 }
@@ -47,12 +46,14 @@
 }
 
 .side-bar {
+
     margin-top: 2%;
     border: 5px solid;
     width: 312px;
     height: 312px;
     background: #161616;
     border-radius: 10px;
+
 
 }
 
@@ -64,12 +65,56 @@
     margin-top: 10%;
     margin-left: 5%;
     background-color: white;
-    text-align: center;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 #color {
     background-color: red;
+}
+
+.blogs {
+    width: 312px;
+    height: 362px;
+    border-radius: 10px;
+}
+
+.blog-button {
+    width: 100px;
+    height: 32px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.icon {
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.side-bar {
+    display: grid;
+    grid-template-rows: max-content;
+}
+
+.blog-section {
+    margin-top: 5%;
+    margin-left: 10px;
+    padding-right: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+
+
+
+.footer {
+
+    width: 1600px;
+    height: 444px;
+    background-color: #161616;
+    color: white;
 }
