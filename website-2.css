@@ -16,6 +16,22 @@
     border-radius: 30px;
 }
 
+.banner-right {
+    animation: banner 5s infinite;
+
+}
+
+@keyframes mymove {
+    from {
+        background-color: black;
+    }
+
+    to {
+        opacity: 50%;
+    }
+}
+
+
 .description {
     margin-top: 100px;
     margin-left: 100px;
