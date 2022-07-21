@@ -31,6 +31,10 @@
     }
 }
 
+.blog-banner {
+    align-items: center;
+    justify-self: center;
+}
 
 .description {
     margin-top: 100px;
