@@ -1,8 +1,24 @@
 .top-header {
+
+
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.banner-right {
+    animation: banner 5s infinite;
+
+}
+
+@keyframes mymove {
+    from {
+        background-color: black;
+    }
+
+    to {
+        opacity: 50%;
+    }
 }
 
 .header {
@@ -14,6 +30,7 @@
     top: 50px;
     color: white;
     border-radius: 30px;
+
 }
 
 .description {
@@ -164,5 +181,14 @@ nav li a {
     text-decoration: none;
     color: grey;
     font-size: 20px;
+
+}
+
+@media only screen and (max-width: 566px) {
+    .header {
+        flex-direction: column;
+        width: 100%;
+    }
+
 
 }
