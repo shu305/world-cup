@@ -142,9 +142,12 @@
 
 .footer-container {
 
-
-    height: 300px;
-    background-color: #161616;
+    position: absolute;
+    width: 1500px;
+    height: 444px;
+    left: 0px;
+    top: 2090px;
+    background: #161616;
 }
 
 .footer-tittle {
