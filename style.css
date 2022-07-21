@@ -141,8 +141,8 @@
 }
 
 .footer-container {
+    display: flex;
 
-    width: 1500px;
     height: 300px;
     background-color: #161616;
 }
@@ -152,7 +152,6 @@
 
     color: white;
     text-align: center;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
